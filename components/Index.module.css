@@ -1,0 +1,25 @@
+.p{
+    color: blueviolet;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+}
+.box{
+    width: 90%;
+    max-width: 450px;
+    height: 400px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    border: rgba(241, 241, 241, 0.356) 1px solid;
+}
+.hero{
+    color: rgba(23, 31, 105, 0.979);
+    direction: rtl;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif
+}

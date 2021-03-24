@@ -1,7 +1,13 @@
 import '../styles/globals.css'
-
-function MyApp({ Component, pageProps }) {
-   return <div><h1>hello wrld</h1></div>
+import styles from "../components/Index.module.css"
+import Link from "next/link"
+import Login from "./Login"
+import Index from "./index"
+function HomePage(){
+  return <div>
+    <Login></Login>
+    <Index></Index>
+    </div>
 }
 
-export default MyApp
+export default HomePage
